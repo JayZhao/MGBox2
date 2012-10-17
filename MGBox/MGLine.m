@@ -438,7 +438,7 @@
   UILabel *label = [[UILabel alloc] initWithFrame:CGRectZero];
   label.backgroundColor = UIColor.clearColor;
   label.text = text;
-  label.font = align == UITextAlignmentRight && self.rightFont
+  label.font = align == NSTextAlignmentRight && self.rightFont
       ? self.rightFont
       : self.font;
   label.textColor = self.textColor;
